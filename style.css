@@ -149,6 +149,9 @@ body {
     text-align: center;
     transition:all 1.8s;
   }
+  .topnav{
+    margin-left:70px;
+  }
   /*my code ends*/
 }
 /*my code*/
