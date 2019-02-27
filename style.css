@@ -136,12 +136,14 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    color:white;
   }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+    color:white;
   }
   .topnav.responsive button {
     float: none;
@@ -153,9 +155,6 @@ body {
     margin-left:65px;
   }
   a{
-    text-decoration: none;
-  }
-  a .icon{
     text-decoration: none;
   }
   /*my code ends*/
