@@ -148,10 +148,16 @@ li:nth-child(4n+4){
 	height: 40vh;
 }
 
+@media(max-width: 1030px){
+  .leaderboard{
+    height: 35vh;
+  }
+}
+
 @media(max-width: 572px){
   .leaderboard{
-    top: 45vh;
-    height: 80vh;
+    top: 40vh;
+    height: 65vh;
   }
 }
 
