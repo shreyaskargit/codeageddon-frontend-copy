@@ -168,7 +168,7 @@ body {
   background-color: transparent;/*#4CAF50;*/
   border: none;
   font-size: 10px;
-  padding: 20px;
+  padding: 10px;
   width: 200px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -190,7 +190,7 @@ a{
 button:hover{
   background:red;
 }
-.button:after {
+/*.button:after {
   content: "";
   background: white;
   display: block;
@@ -202,13 +202,12 @@ button:hover{
   opacity: 0;
   transition: all 1s;
 }
-
 .button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
   transition: 0s
-}
+}*/
 .topnav .icon {
   display: none;
 }
