@@ -150,7 +150,13 @@ body {
     transition:all 1.8s;
   }
   .topnav{
-    margin-left:70px;
+    margin-left:65px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a .icon{
+    text-decoration: none;
   }
   /*my code ends*/
 }
@@ -163,7 +169,7 @@ body {
   position: relative;
   background-color: transparent;/*#4CAF50;*/
   border: none;
-  font-size: 10px;
+  font-size: 15px;
   padding: 20px 0px;
   width: 200px;
   text-align: center;
@@ -177,11 +183,11 @@ body {
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
 }
-a{
-  font-size:16px;
-  text-decoration:none;
-  color:white;
-  font-family: neuropol;
+a button{
+    font-size:30px;
+    text-decoration:none;
+    font-family:neuropol;
+    color:white;
 }
 button:hover{
   background:red;
@@ -195,4 +201,6 @@ button:hover{
 }
 span a{
   color:yellow;
+  font-family:neuropol;
+  text-decoration: none;
 }
