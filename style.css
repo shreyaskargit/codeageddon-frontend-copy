@@ -136,12 +136,14 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    color:white;
   }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+    color:white;
   }
   .topnav.responsive button {
     float: none;
@@ -150,7 +152,10 @@ body {
     transition:all 1.8s;
   }
   .topnav{
-    margin-left:70px;
+    margin-left:65px;
+  }
+  a{
+    text-decoration: none;
   }
   /*my code ends*/
 }
@@ -159,16 +164,12 @@ body {
   font-family: neuropol;
   src: url("neuropol.ttf");
 }
-/*@font-face {
-  font-family: motioncontrol;
-  src: url("motioncontrol.otf");
-}*/
 .button {
   position: relative;
   background-color: transparent;/*#4CAF50;*/
   border: none;
-  font-size: 10px;
-  padding: 20px 10px;
+  font-size: 15px;
+  padding: 20px 0px;
   width: 200px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -181,36 +182,24 @@ body {
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
 }
-a{
-  font-size:16px;
-  text-decoration:none;
-  color:white;
-  font-family: neuropol;
+a button{
+    font-size:30px;
+    text-decoration:none;
+    font-family:neuropol;
+    color:white;
 }
 button:hover{
   background:red;
 }
-/*.button:after {
-  content: "";
-  background: white;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 1s;
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}*/
 .topnav .icon {
   display: none;
 }
 span a{
   color:yellow;
+  font-family:neuropol;
+  text-decoration: none;
 }
