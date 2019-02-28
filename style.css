@@ -202,6 +202,7 @@ span a{
   color:yellow;
   font-family:neuropol;
   text-decoration: none;
+<<<<<<< HEAD
 }
 .form-controll {
     display: block;
@@ -216,3 +217,6 @@ span a{
     border: 1px solid #ea5410;
     border-radius: 6px;
     }
+=======
+}
+>>>>>>> 8efffb96640472789ae78dacb150c811bc1188e3
